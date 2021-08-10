@@ -1,10 +1,9 @@
 package mx.com.gm.peliculas.negocio;
 
-import mx.com.gm.peliculas.datos.AccesoDatos;
+import mx.com.gm.peliculas.datos.IAccesoDatos;
 
 public class CatalogoPeliculasImpl {
 
-    AccesoDatos datos = new AccesoDatos();
     
     public CatalogoPeliculasImpl(){
         
